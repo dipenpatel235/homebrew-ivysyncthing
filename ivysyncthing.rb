@@ -1,13 +1,11 @@
-class Testscript < Formula
+class Ivysyncthing < Formula
   desc ""
   homepage ""
-  url "https://www.dropbox.com/s/yn21kzfzmod2sre/ivysyncthing.zip"
+  url "https://github.com/dipenpatel235/ivysyncthing/archive/v1.0.0.tar.gz"
   version "1.0.0"
-  sha256 "6dc72e65c8fdd32821bcc6cf832cb971f0ee812d58bb7605c55e89ea6c0ed0e2"
-
+  sha256 "1bdd5a8ea1e1e3a2a26836531d5170ccca010d2a68aaea67eebf32eafe929ff1"
 
   def install
 	bin.install "ivysyncthing"
   end
-
 end
