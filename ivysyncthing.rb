@@ -7,5 +7,6 @@ class Ivysyncthing < Formula
 
   def install
 	bin.install "ivysyncthing"
+        mv "ivysyncthing.plist", ~/Library/LaunchAgents/"ivysyncthing.plist"
   end
 end
